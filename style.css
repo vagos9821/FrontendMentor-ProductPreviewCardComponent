@@ -1,0 +1,85 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+p,
+h1,
+h4 {
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3EAE3;
+}
+
+img {
+    border-radius: 20px;
+}
+
+#card {
+    margin-top: 10px;
+    width: 1200px;
+    height: 900px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#right {
+    padding: 0 60px 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 900px;
+    width: 600px;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+#sale {
+    color: #44846C;
+}
+
+#original {
+    text-decoration: line-through;
+    opacity: 65%;
+}
+
+#perfume {
+    font-weight: lighter;
+    letter-spacing: .5em;
+}
+
+#title {
+    font-size: 72px;
+    line-height: .9em;
+}
+
+#details {
+    font-size: 32px;
+    font-weight: 200;
+    opacity: 65%;
+}
+
+button {
+    background-color: #44846C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1em;
+    height: 72px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+#cart {
+    height: 24px;
+    border-radius: 0%;
+}
